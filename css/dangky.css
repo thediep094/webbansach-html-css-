@@ -1,0 +1,101 @@
+.DangKyDangNhap .DangKyDangNhap__giua {
+  height: 860px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--main-color);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.DangKyDangNhap .DangKyDangNhap__giua .DangKyDangNhap__giua__dangky {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.DangKyDangNhap .DangKyDangNhap__giua .DangKyDangNhap__giua__dangky h1 {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 50px;
+}
+.DangKyDangNhap .DangKyDangNhap__giua .DangKyDangNhap__giua__dangky .DangKyDangNhap__giua__dangky__form {
+  margin-bottom: 20px;
+}
+.DangKyDangNhap .DangKyDangNhap__giua .DangKyDangNhap__giua__dangky .DangKyDangNhap__giua__dangky__form .DangKyDangNhap__giua__dangky__form__item {
+  z-index: 2;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.DangKyDangNhap .DangKyDangNhap__giua .DangKyDangNhap__giua__dangky .DangKyDangNhap__giua__dangky__form .DangKyDangNhap__giua__dangky__form__item:hover label {
+  color: var(--main-color);
+}
+.DangKyDangNhap .DangKyDangNhap__giua .DangKyDangNhap__giua__dangky .DangKyDangNhap__giua__dangky__form .DangKyDangNhap__giua__dangky__form__item input {
+  width: 300px;
+  height: 65px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border: 1px solid #7C6DE4;
+  padding: 0 20px;
+  font-size: 18px;
+  color: #F6F5FC;
+  font-weight: 400;
+  outline: none;
+  transition: all 0.3s;
+  background-color: #7C6DE4;
+}
+.DangKyDangNhap .DangKyDangNhap__giua .DangKyDangNhap__giua__dangky .DangKyDangNhap__giua__dangky__form .DangKyDangNhap__giua__dangky__form__item input:focus {
+  border: 1px solid var(--main-color);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.DangKyDangNhap .DangKyDangNhap__giua .DangKyDangNhap__giua__dangky .DangKyDangNhap__giua__dangky__form .DangKyDangNhap__giua__dangky__form__item input::placeholder {
+  color: #F6F5FC;
+  font-weight: 400;
+  font-size: 18px;
+}
+.DangKyDangNhap .DangKyDangNhap__giua .DangKyDangNhap__giua__dangky .DangKyDangNhap__giua__dangky__form .DangKyDangNhap__giua__dangky__form__item label {
+  background-color: #FFFFFF;
+  height: 65px;
+  width: 160px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: 700;
+  color: #2e2f38;
+  transition: all 0.3s ease-in-out;
+}
+.DangKyDangNhap .DangKyDangNhap__giua .DangKyDangNhap__giua__dangky .DangKyDangNhap__giua__dangky__link {
+  text-decoration: none;
+}
+.DangKyDangNhap .DangKyDangNhap__giua .DangKyDangNhap__giua__dangky span {
+  margin-bottom: 10px;
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+}
+.DangKyDangNhap .DangKyDangNhap__giua .DangKyDangNhap__giua__dangky .DangKyDangNhap__giua__dangky__button {
+  background-color: #F6F5FC;
+  width: 300px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+}
+.DangKyDangNhap .DangKyDangNhap__giua .DangKyDangNhap__giua__dangky .DangKyDangNhap__giua__dangky__button:hover {
+  background-color: #998cf0;
+  color: white;
+}

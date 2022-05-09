@@ -1,0 +1,303 @@
+.Footer {
+	 display: flex;
+	 margin: 80px 150px;
+	 flex-direction: column;
+}
+ .Footer .Footer__tren {
+	 display: flex;
+	 flex-direction: row;
+	 justify-content: space-between;
+	 margin: 0 50px;
+	 margin-bottom: 100px;
+}
+ .Footer .Footer__tren .Footer__tren__item {
+	 display: flex;
+	 flex-direction: column;
+	 align-items: center;
+}
+ .Footer .Footer__tren .Footer__tren__item .Footer__tren__item__icon {
+	 font-size: 100px;
+	 color: var(--main-color);
+	 margin-bottom: 80px;
+}
+ .Footer .Footer__tren .Footer__tren__item h1 {
+	 font-size: 40px;
+	 font-weight: 800;
+	 color: #11142d;
+	 margin-bottom: 0px;
+}
+ .Footer .Footer__tren .Footer__tren__item p {
+	 font-size: 18px;
+	 color: #ada9a9;
+	 font-weight: 400;
+}
+ .Footer .Footer__giua {
+	 display: flex;
+	 flex-direction: column;
+	 height: 400px;
+	 position: relative;
+	 width: 100%;
+	 align-items: center;
+}
+ .Footer .Footer__giua img {
+	 left: 0;
+	 width: 100%;
+	 height: 350px;
+	 position: absolute;
+	 object-fit: cover;
+	 border-radius: 20px;
+	 z-index: 1;
+}
+ .Footer .Footer__giua h1 {
+	 z-index: 2;
+	 margin-top: 80px;
+	 color: #f6f5fc;
+	 cursor: default;
+	 font-size: 30px;
+	 font-weight: 500;
+	 max-width: 600px;
+	 text-align: center;
+}
+ .Footer .Footer__giua .Footer__giua__email {
+	 z-index: 2;
+	 margin-top: 50px;
+	 display: flex;
+	 flex-direction: row;
+	 width: 100%;
+	 align-items: center;
+	 justify-content: center;
+}
+ .Footer .Footer__giua .Footer__giua__email input {
+	 width: 40%;
+	 height: 65px;
+	 border-top-left-radius: 15px;
+	 border-bottom-left-radius: 15px;
+	 border: 1px solid #7c6de4;
+	 padding: 0 20px;
+	 font-size: 18px;
+	 color: #f6f5fc;
+	 font-weight: 400;
+	 outline: none;
+	 transition: all 0.3s;
+	 background-color: #7c6de4;
+}
+ .Footer .Footer__giua .Footer__giua__email input:focus {
+	 border: 1px solid var(--main-color);
+	 box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+ .Footer .Footer__giua .Footer__giua__email input::placeholder {
+	 color: #f6f5fc;
+	 font-weight: 400;
+	 font-size: 18px;
+}
+ .Footer .Footer__giua .Footer__giua__email .Footer__giua__email__nut {
+	 background-color: #fff;
+	 height: 65px;
+	 width: 160px;
+	 border-top-right-radius: 15px;
+	 border-bottom-right-radius: 15px;
+	 align-items: center;
+	 text-align: center;
+	 display: flex;
+	 justify-content: center;
+	 font-size: 20px;
+	 font-weight: 700;
+	 color: #2e2f38;
+	 cursor: pointer;
+	 transition: all 0.3s ease-in-out;
+}
+ .Footer .Footer__giua .Footer__giua__email .Footer__giua__email__nut:hover {
+	 color: var(--main-color);
+}
+ .Footer .Footer__duoi {
+	 display: flex;
+	 flex-direction: row;
+	 justify-content: space-between;
+}
+ .Footer .Footer__duoi .Footer__duoi__trai {
+	 width: 32%;
+	 display: flex;
+	 flex-direction: column;
+	 justify-content: flex-start;
+}
+ .Footer .Footer__duoi .Footer__duoi__trai .ThanhMenu__trai--logo {
+	 display: flex;
+	 flex-direction: row;
+	 cursor: pointer;
+	 margin-bottom: 35px;
+}
+ .Footer .Footer__duoi .Footer__duoi__trai .ThanhMenu__trai--logo img {
+	 border-radius: 15px;
+	 width: 60px;
+	 height: 60px;
+	 object-fit: cover;
+}
+ .Footer .Footer__duoi .Footer__duoi__trai .ThanhMenu__trai--logo .ThanhMenu__trai--ten h2 {
+	 font-size: 30px;
+	 font-weight: 900;
+	 margin-left: 10px;
+	 color: #333;
+}
+ .Footer .Footer__duoi .Footer__duoi__trai .ThanhMenu__trai--logo .ThanhMenu__trai--ten p {
+	 font-size: 15px;
+	 margin-left: 10px;
+	 color: #000;
+}
+ .Footer .Footer__duoi .Footer__duoi__trai__thongtin {
+	 font-size: 17px;
+	 color: #2d2e35;
+	 font-weight: 400;
+	 margin-bottom: 35px;
+}
+ .Footer .Footer__duoi h1 {
+	 font-size: 20px;
+	 font-weight: 700;
+	 margin-bottom: 30px;
+}
+ .Footer .Footer__duoi .Footer__duoi__trai__mangxahoi {
+	 display: flex;
+	 flex-direction: row;
+	 flex-wrap: wrap;
+}
+ .Footer .Footer__duoi .Footer__duoi__trai__mangxahoi .facebook {
+	 width: 30px;
+	 height: 30px;
+	 padding: 15px;
+	 border-radius: 15px;
+	 border: 1px solid #b8b8bb;
+	 color: #2035e5;
+	 margin-right: 20px;
+	 transition: all 0.3s ease-in-out;
+	 cursor: pointer;
+}
+ .Footer .Footer__duoi .Footer__duoi__trai__mangxahoi .facebook:hover {
+	 background-color: #6270f0;
+	 color: #fff;
+}
+ .Footer .Footer__duoi .Footer__duoi__trai__mangxahoi .youtube {
+	 width: 30px;
+	 height: 30px;
+	 padding: 15px;
+	 border-radius: 15px;
+	 border: 1px solid #b8b8bb;
+	 color: #ff2a2a;
+	 margin-right: 20px;
+	 transition: all 0.3s ease-in-out;
+	 cursor: pointer;
+}
+ .Footer .Footer__duoi .Footer__duoi__trai__mangxahoi .youtube:hover {
+	 background-color: #e43b3b;
+	 color: #fff;
+}
+ .Footer .Footer__duoi .Footer__duoi__trai__mangxahoi .twiter {
+	 width: 30px;
+	 height: 30px;
+	 padding: 15px;
+	 border-radius: 15px;
+	 border: 1px solid #b8b8bb;
+	 color: #3cb5db;
+	 margin-right: 20px;
+	 transition: all 0.3s ease-in-out;
+	 cursor: pointer;
+}
+ .Footer .Footer__duoi .Footer__duoi__trai__mangxahoi .twiter:hover {
+	 background-color: #1da1f2;
+	 color: #fff;
+}
+ .Footer .Footer__duoi .Footer__duoi__trai__mangxahoi .instagram {
+	 width: 30px;
+	 height: 30px;
+	 padding: 15px;
+	 border-radius: 15px;
+	 border: 1px solid #b8b8bb;
+	 color: #fea1bd;
+	 margin-right: 20px;
+	 transition: all 0.3s ease-in-out;
+	 cursor: pointer;
+}
+ .Footer .Footer__duoi .Footer__duoi__trai__mangxahoi .instagram:hover {
+	 background-color: #e1306c;
+	 color: #fff;
+}
+ .Footer .Footer__duoi .Footer__duoi__giua {
+	 display: flex;
+	 flex-direction: column;
+	 width: 32%;
+	 align-items: center;
+}
+ .Footer .Footer__duoi .Footer__duoi__giua .Footer__duoi__theloai {
+	 display: flex;
+	 flex-direction: column;
+	 min-width: 200px;
+}
+ .Footer .Footer__duoi .Footer__duoi__giua .Footer__duoi__theloai h1 {
+	 font-size: 20px;
+	 font-weight: 700;
+	 margin-bottom: 30px;
+}
+ .Footer .Footer__duoi .Footer__duoi__giua .Footer__duoi__theloai .Footer__duoi__theloai__item {
+	 display: flex;
+	 flex-direction: column;
+	 height: 360px;
+	 flex-wrap: wrap;
+}
+ .Footer .Footer__duoi .Footer__duoi__giua .Footer__duoi__theloai .Footer__duoi__theloai__item h1 {
+	 font-size: 17px;
+	 font-weight: 500;
+	 color: #2d2e35;
+	 transition: all 0.3s ease-in-out;
+	 cursor: pointer;
+}
+ .Footer .Footer__duoi .Footer__duoi__giua .Footer__duoi__theloai .Footer__duoi__theloai__item h1:hover {
+	 color: var(--main-color);
+}
+ .Footer .Footer__duoi .Footer__duoi__phai {
+	 display: flex;
+	 flex-direction: column;
+	 width: 32%;
+}
+ .Footer .Footer__duoi .Footer__duoi__phai h2 {
+	 font-size: 20px;
+	 font-weight: 700;
+	 margin-bottom: 20px;
+}
+ .Footer .Footer__duoi .Footer__duoi__phai img {
+	 height: 120px;
+	 width: 360px;
+	 border-radius: 15px;
+	 object-fit: cover;
+}
+ .Footer .Footer__duoi .Footer__duoi__phai .Footer__duoi__diachi {
+	 color: var(--main-color);
+	 display: flex;
+	 flex-direction: row;
+	 margin-top: 20px;
+}
+ .Footer .Footer__duoi .Footer__duoi__phai .Footer__duoi__diachi h1 {
+	 font-size: 17px;
+	 font-weight: 500;
+	 color: #333;
+}
+ .Footer .Footer__duoi .Footer__duoi__phai .Footer__duoi__sdt {
+	 color: var(--main-color);
+	 display: flex;
+	 flex-direction: row;
+	 margin-top: 10px;
+}
+ .Footer .Footer__duoi .Footer__duoi__phai .Footer__duoi__sdt h1 {
+	 font-size: 17px;
+	 font-weight: 500;
+	 color: #333;
+}
+ .Footer .Footer__duoi .Footer__duoi__phai .Footer__duoi__email {
+	 color: var(--main-color);
+	 display: flex;
+	 flex-direction: row;
+	 margin-top: 10px;
+}
+ .Footer .Footer__duoi .Footer__duoi__phai .Footer__duoi__email h1 {
+	 font-size: 17px;
+	 font-weight: 500;
+	 color: #333;
+}
+ 

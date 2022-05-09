@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,500&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="fontawesome-free-6.1.1-web/css/all.min.css">
+    <link rel="stylesheet" href="./css/thanhmenu.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/theloai.css">
+
+</head>
+
+<body style="font-family: 'Roboto', sans-serif">
+    <div class="ThanhMenu">
+        <div class="ThanhMenu__trai">
+            <a href="trangchu.html" class='ThanhMenu__trai__a' style="text-decoration: none">
+                <div class="ThanhMenu__trai--logo">
+                    <img src="./img/Logo.png" alt="" />
+                    <div class="ThanhMenu__trai--ten">
+                        <h1>Bookoe</h1>
+                        <p>Book Store 5 Chú Hề</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="ThanhMenu__giua">
+            <div class="ThanhMenu__giua--menu">
+                <i class="fa fa-th-large ThanhMenu__giua--menu--icon" aria-hidden="true"></i>
+                <p>Menus</p>
+                <i class="fa fa-caret-down ThanhMenu__giua--menu--icon" aria-hidden="true"></i>
+                <div class="ThanhMenu__giua--menu--thanhphan">
+                    <a href="trangchu.html" style="text-decoration: none">Trang chủ</a>
+                    <a href="theloai.html" style="text-decoration: none">Thể loại</a>
+                    <a href="giohang.html" style="text-decoration: none">Giỏ hàng</a>
+                    <a href="trangcanhan.html" style="text-decoration: none">Trang cá nhân</a>
+
+                </div>
+            </div>
+            <div class="ThanhMenu__giua--timkiem">
+                <input type="text" placeholder="Tìm kiếm" class='ThanhMenu__giua--timkiem--input' />
+            </div>
+            <div class="ThanhMenu__giua--icon--timkiem">
+                <i class="fa fa-search ThanhMenu__giua--icon--timkiem--icon" aria-hidden="true"></i>
+            </div>
+        </div>
+
+        <div class="ThanhMenu__phai">
+
+            <!-- <a href="/giohang" style="text-decoration: none">
+            
+                                        <div class="ThanhMenu__phai--giohang">
+                                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                        </div>
+                                    </a>
+                                    <a href="/trangcanhan" style="text-decoration: none">
+                                        <div class="ThanhMenu__phai--avatar">
+                                            <img src="./img//Logo.png" alt="" />
+                                        </div>
+                                    </a> -->
+            <a href="dangnhap.html" class='ThanhMenu__phai--dangky--icon' style="text-decoration: none">
+
+                <div class="ThanhMenu__phai--dangnhap">
+
+                    <a href="dangnhap.html" class='ThanhMenu__phai--dangnhap__link' style="text-decoration: none">Đăng
+                        nhập</a>
+
+                </div>
+            </a>
+            <a href="dangky.html" class='ThanhMenu__phai--dangky--icon' style="text-decoration: none">
+
+                <div class="ThanhMenu__phai--dangky">
+                    <i class="fa fa-user ThanhMenu__phai--dangky--icon" aria-hidden="true"></i>
+                    <a href="dangky.html" class='ThanhMenu__phai--dangky__link' style="text-decoration: none">Đăng
+                        ký</a>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="TheLoaiSach">
+        <div class="TheLoaiSach__duoi">
+            <div class="TheLoaiSach__duoi__luachon">
+                <div class="TheLoaiSach__duoi__luachon__title">
+                    Lựa Chọn
+                </div>
+                <div class="TheLoaiSach__duoi__luachon__sapxep">
+                    <div class="TheLoaiSach__duoi__luachon__sapxep__title">
+                        <h1>Chọn kiểu sắp xếp</h1>
+                    </div>
+                    <div class="TheLoaiSach__duoi__luachon__sapxep__kieu">
+                    </div>
+                </div>
+                <div class="TheLoaiSach__duoi__luachon__nam">
+                    <div class="TheLoaiSach__duoi__luachon__nam__title">
+
+                        <h1>Chọn năm</h1>
+                    </div>
+                    <div class="TheLoaiSach__duoi__luachon__nam__nambatdau">
+                        <h1>Năm bắt đầu</h1>
+                        <input type="text" placeholder='Năm bắt đầu' />
+                    </div>
+                    <div class="TheLoaiSach__duoi__luachon__nam__namketthuc">
+                        <h1>Năm kết thúc</h1>
+                        <input type="text" placeholder='Năm kết thúc' />
+                    </div>
+                </div>
+                <div class="TheLoaiSach__duoi__luachon__theloai">
+                    <div class="TheLoaiSach__duoi__luachon__theloai__title">
+                        <h1>Chọn thể loại</h1>
+                    </div>
+                    <div class="TheLoaiSach__duoi__luachon__theloai__luachon">
+                        <select name="theloais" id="theloais">
+                            <option value="All">
+                                Tất cả
+                            </option>
+                            <option value="Action">
+                                Action
+                            </option>
+                            <option value="Adventure">
+                                Adventure
+                            </option>
+                            <option value="Comedy">
+                                Comedy
+                            </option>
+                            <option value="Crime">
+                                Crime
+                            </option>
+                            <option value="Drama">
+                                Drama
+                            </option>
+                            <option value="Fantasy">
+                                Fantasy
+                            </option>
+                            <option value="Horor">
+                                Horor
+                            </option>
+                            <option value="Law">
+                                Law
+                            </option>
+                            <option value="TV Series">
+                                TV Series
+                            </option>
+                            <option value="Romance">
+                                Romance
+                            </option>
+                        </select>
+                    </div>
+                </div>
+                <div class="TheLoaiSach__duoi__luachon__gia">
+                    <div class="TheLoaiSach__duoi__luachon__gia__title">
+
+                        <h1>Chọn giá</h1>
+                    </div>
+                    <div class="TheLoaiSach__duoi__luachon__gia__tu__den">
+                        <h1>Từ</h1>
+                        <input type="text" placeholder='VNĐ' class='TheLoaiSach__duoi__luachon__gia__tu__den__input' />
+                        <h1>Đến</h1>
+                        <input type="text" placeholder='VNĐ' class='TheLoaiSach__duoi__luachon__gia__tu__den__input' />
+                    </div>
+                </div>
+                <div class="TheLoaiSach__duoi__luachon__timkiem">
+                    <div class="TheLoaiSach__duoi__luachon__timkiem__timkiem">
+                        Tìm Kiếm
+                    </div>
+                    <div class="TheLoaiSach__duoi__luachon__timkiem__reset">
+                        Reset Tìm Kiếm
+                    </div>
+                </div>
+            </div>
+            <div class="TheLoaiSach__duoi__danhsach">
+                <div class="TheLoaiSach__duoi__danhsach__title">
+                    <h1>Danh Sách Sách</h1>
+                </div>
+                <div class="TheLoaiSach__duoi__danhsach__items">
+                    <div class="TheLoaiSach__duoi__danhsach__item" key={index}>
+                        <a href="./chitiet.html" class="TheLoaiSach__duoi__danhsach__item__link"
+                            style="text-decoration: none;">
+                            <div class="TheLoaiSach__duoi__danhsach__item__hinhanh">
+                                <img src="https://images-na.ssl-images-amazon.com/images/I/61GfGJ7EOdL.jpg" alt="" />
+                            </div>
+                        </a>
+                        <div class="TheLoaiSach__duoi__danhsach__item__thongtin">
+                            <div class="TheLoaiSach__duoi__danhsach__item__thongtin__tren">
+                                <div class="TheLoaiSach__duoi__danhsach__item__thongtin__title">
+                                    <a href="./chitiet.html" class="TheLoaiSach__duoi__danhsach__item__link"
+                                        style="text-decoration: none;">
+                                        <h1>Seconds</h1>
+                                    </a>
+                                    <div class="TheLoaiSach__duoi__danhsach__item__theloai">
+                                        <p>Adventure</p>
+                                    </div>
+                                </div>
+                                <div class="TheLoaiSach__duoi__danhsach__item__thongtin__phai">
+                                    <p>400 lượt mua</p>
+
+                                </div>
+                            </div>
+                            <div class="TheLoaiSach__duoi__danhsach__item__thongtin__desc">
+                                <p>The highly anticipated new standalone full-color graphic novel from Bryan Lee
+                                    O’Malley, author and artist of the hugely
+                                    bestselling Scott Pilgrim graphic novel series. Katie’s got it pretty good. She’s a
+                                    talented young chef, she runs a
+                                    successful restaurant, and she has big plans to open an even better one. Then, all
+                                    at once, progress on the new location
+                                    bogs down, her charming ex-boyfriend pops up, her fling with another chef goes sour,
+                                    and her best waitress gets badly
+                                    hurt. And just like that, Katie’s life goes from pretty good to not so much. What
+                                    she needs is a second chance.
+                                    Everybody deserves one, after all―but they don’t come easy. Luckily for Katie, a
+                                    mysterious girl appears in the middle
+                                    of the night with simple instructions for a do-it-yourself do-over: 1. Write your
+                                    mistake 2. Ingest one mushroom. 3. Go
+                                    to sleep. 4. Wake anew And just like that, all the bad stuff never happened, and
+                                    Katie is given another chance to get
+                                    things right. She’s also got a dresser drawer full of magical mushrooms―and an
+                                    irresistible urge to make her life not
+                                    just good, but perfect. Too bad it’s against the rules. But Katie doesn’t care about
+                                    the rules―and she’s about to
+                                    discover the unintended consequences of the best intentions. From the mind and pen
+                                    behind the acclaimed Scott Pilgrim
+                                    series comes a madcap new tale of existential angst, everyday obstacles, young love,
+                                    and ancient spirits that’s
+                                    sharp-witted and tenderhearted, whimsical and wise.</p>
+                            </div>
+                            <div class="TheLoaiSach__duoi__danhsach__item__thongtin__gia">
+                                <p>120.000 VNĐ</p>
+                            </div>
+                            <div class="TheLoaiSach__duoi__danhsach__item__thongtin__duoi">
+                                <div class="TheLoaiSach__duoi__danhsach__item__thongtin__duoi__trai">
+                                    <div class="TheLoaiSach__duoi__danhsach__item__thongtin__duoi__trai__tacgia">
+                                        <h1>Tác giả</h1>
+                                        <p>Chetan Bhagat</p>
+                                    </div>
+                                    <div class="TheLoaiSach__duoi__danhsach__item__thongtin__duoi__trai__nam">
+                                        <h1>Năm</h1>
+                                        <p>2019</p>
+                                    </div>
+                                </div>
+                                <div class="TheLoaiSach__duoi__danhsach__item__thongtin__duoi__phai">
+                                    <div class="TheLoaiSach__duoi__danhsach__item__thongtin__duoi__phai__nut">
+                                        <p>Thêm vào giỏ</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="TheLoaiSach__duoi__danhsach__item" key={index}>
+                        <a href="./chitiet.html" class="TheLoaiSach__duoi__danhsach__item__link"
+                            style="text-decoration: none;">
+                            <div class="TheLoaiSach__duoi__danhsach__item__hinhanh">
+                                <img src="https://m.media-amazon.com/images/I/41N2KG+COiL.jpg" alt="" />
+                            </div>
+                        </a>
+                        <div class="TheLoaiSach__duoi__danhsach__item__thongtin">
+                            <div class="TheLoaiSach__duoi__danhsach__item__thongtin__tren">
+                                <div class="TheLoaiSach__duoi__danhsach__item__thongtin__title">
+                                    <a href="./chitiet.html" class="TheLoaiSach__duoi__danhsach__item__link"
+                                        style="text-decoration: none;">
+                                        <h1>Seconds</h1>
+                                    </a>
+                                    <div class="TheLoaiSach__duoi__danhsach__item__theloai">
+                                        <p>Adventure</p>
+                                    </div>
+                                </div>
+                                <div class="TheLoaiSach__duoi__danhsach__item__thongtin__phai">
+                                    <p>400 lượt mua</p>
+
+                                </div>
+                            </div>
+                            <div class="TheLoaiSach__duoi__danhsach__item__thongtin__desc">
+                                <p>The highly anticipated new standalone full-color graphic novel from Bryan Lee
+                                    O’Malley, author and artist of the hugely
+                                    bestselling Scott Pilgrim graphic novel series. Katie’s got it pretty good. She’s a
+                                    talented young chef, she runs a
+                                    successful restaurant, and she has big plans to open an even better one. Then, all
+                                    at once, progress on the new location
+                                    bogs down, her charming ex-boyfriend pops up, her fling with another chef goes sour,
+                                    and her best waitress gets badly
+                                    hurt. And just like that, Katie’s life goes from pretty good to not so much. What
+                                    she needs is a second chance.
+                                    Everybody deserves one, after all―but they don’t come easy. Luckily for Katie, a
+                                    mysterious girl appears in the middle
+                                    of the night with simple instructions for a do-it-yourself do-over: 1. Write your
+                                    mistake 2. Ingest one mushroom. 3. Go
+                                    to sleep. 4. Wake anew And just like that, all the bad stuff never happened, and
+                                    Katie is given another chance to get
+                                    things right. She’s also got a dresser drawer full of magical mushrooms―and an
+                                    irresistible urge to make her life not
+                                    just good, but perfect. Too bad it’s against the rules. But Katie doesn’t care about
+                                    the rules―and she’s about to
+                                    discover the unintended consequences of the best intentions. From the mind and pen
+                                    behind the acclaimed Scott Pilgrim
+                                    series comes a madcap new tale of existential angst, everyday obstacles, young love,
+                                    and ancient spirits that’s
+                                    sharp-witted and tenderhearted, whimsical and wise.</p>
+                            </div>
+                            <div class="TheLoaiSach__duoi__danhsach__item__thongtin__gia">
+                                <p>120.000 VNĐ</p>
+                            </div>
+                            <div class="TheLoaiSach__duoi__danhsach__item__thongtin__duoi">
+                                <div class="TheLoaiSach__duoi__danhsach__item__thongtin__duoi__trai">
+                                    <div class="TheLoaiSach__duoi__danhsach__item__thongtin__duoi__trai__tacgia">
+                                        <h1>Tác giả</h1>
+                                        <p>Chetan Bhagat</p>
+                                    </div>
+                                    <div class="TheLoaiSach__duoi__danhsach__item__thongtin__duoi__trai__nam">
+                                        <h1>Năm</h1>
+                                        <p>2019</p>
+                                    </div>
+                                </div>
+                                <div class="TheLoaiSach__duoi__danhsach__item__thongtin__duoi__phai">
+                                    <div class="TheLoaiSach__duoi__danhsach__item__thongtin__duoi__phai__nut">
+                                        <p>Thêm vào giỏ</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="TheLoaiSach__duoi__danhsach__item" key={index}>
+                        <a href="./chitiet.html" class="TheLoaiSach__duoi__danhsach__item__link"
+                            style="text-decoration: none;">
+                            <div class="TheLoaiSach__duoi__danhsach__item__hinhanh">
+                                <img src="https://m.media-amazon.com/images/I/51jI2vblaSL._SY346_.jpg" alt="" />
+                            </div>
+                        </a>
+                        <div class="TheLoaiSach__duoi__danhsach__item__thongtin">
+                            <div class="TheLoaiSach__duoi__danhsach__item__thongtin__tren">
+                                <div class="TheLoaiSach__duoi__danhsach__item__thongtin__title">
+                                    <a href="./chitiet.html" class="TheLoaiSach__duoi__danhsach__item__link"
+                                        style="text-decoration: none;">
+                                        <h1>Seconds</h1>
+                                    </a>
+                                    <div class="TheLoaiSach__duoi__danhsach__item__theloai">
+                                        <p>Adventure</p>
+                                    </div>
+                                </div>
+                                <div class="TheLoaiSach__duoi__danhsach__item__thongtin__phai">
+                                    <p>400 lượt mua</p>
+
+                                </div>
+                            </div>
+                            <div class="TheLoaiSach__duoi__danhsach__item__thongtin__desc">
+                                <p>The highly anticipated new standalone full-color graphic novel from Bryan Lee
+                                    O’Malley, author and artist of the hugely
+                                    bestselling Scott Pilgrim graphic novel series. Katie’s got it pretty good. She’s a
+                                    talented young chef, she runs a
+                                    successful restaurant, and she has big plans to open an even better one. Then, all
+                                    at once, progress on the new location
+                                    bogs down, her charming ex-boyfriend pops up, her fling with another chef goes sour,
+                                    and her best waitress gets badly
+                                    hurt. And just like that, Katie’s life goes from pretty good to not so much. What
+                                    she needs is a second chance.
+                                    Everybody deserves one, after all―but they don’t come easy. Luckily for Katie, a
+                                    mysterious girl appears in the middle
+                                    of the night with simple instructions for a do-it-yourself do-over: 1. Write your
+                                    mistake 2. Ingest one mushroom. 3. Go
+                                    to sleep. 4. Wake anew And just like that, all the bad stuff never happened, and
+                                    Katie is given another chance to get
+                                    things right. She’s also got a dresser drawer full of magical mushrooms―and an
+                                    irresistible urge to make her life not
+                                    just good, but perfect. Too bad it’s against the rules. But Katie doesn’t care about
+                                    the rules―and she’s about to
+                                    discover the unintended consequences of the best intentions. From the mind and pen
+                                    behind the acclaimed Scott Pilgrim
+                                    series comes a madcap new tale of existential angst, everyday obstacles, young love,
+                                    and ancient spirits that’s
+                                    sharp-witted and tenderhearted, whimsical and wise.</p>
+                            </div>
+                            <div class="TheLoaiSach__duoi__danhsach__item__thongtin__gia">
+                                <p>120.000 VNĐ</p>
+                            </div>
+                            <div class="TheLoaiSach__duoi__danhsach__item__thongtin__duoi">
+                                <div class="TheLoaiSach__duoi__danhsach__item__thongtin__duoi__trai">
+                                    <div class="TheLoaiSach__duoi__danhsach__item__thongtin__duoi__trai__tacgia">
+                                        <h1>Tác giả</h1>
+                                        <p>Chetan Bhagat</p>
+                                    </div>
+                                    <div class="TheLoaiSach__duoi__danhsach__item__thongtin__duoi__trai__nam">
+                                        <h1>Năm</h1>
+                                        <p>2019</p>
+                                    </div>
+                                </div>
+                                <div class="TheLoaiSach__duoi__danhsach__item__thongtin__duoi__phai">
+                                    <div class="TheLoaiSach__duoi__danhsach__item__thongtin__duoi__phai__nut">
+                                        <p>Thêm vào giỏ</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="TheLoaiSach__duoi__danhsach__item" key={index}>
+                        <a href="./chitiet.html" class="TheLoaiSach__duoi__danhsach__item__link"
+                            style="text-decoration: none;">
+                            <div class="TheLoaiSach__duoi__danhsach__item__hinhanh">
+                                <img src="https://m.media-amazon.com/images/I/41CXb07QsSL._SY346_.jpg" alt="" />
+                            </div>
+                        </a>
+                        <div class="TheLoaiSach__duoi__danhsach__item__thongtin">
+                            <div class="TheLoaiSach__duoi__danhsach__item__thongtin__tren">
+                                <div class="TheLoaiSach__duoi__danhsach__item__thongtin__title">
+                                    <a href="./chitiet.html" class="TheLoaiSach__duoi__danhsach__item__link"
+                                        style="text-decoration: none;">
+                                        <h1>Seconds</h1>
+                                    </a>
+                                    <div class="TheLoaiSach__duoi__danhsach__item__theloai">
+                                        <p>Adventure</p>
+                                    </div>
+                                </div>
+                                <div class="TheLoaiSach__duoi__danhsach__item__thongtin__phai">
+                                    <p>400 lượt mua</p>
+
+                                </div>
+                            </div>
+                            <div class="TheLoaiSach__duoi__danhsach__item__thongtin__desc">
+                                <p>The highly anticipated new standalone full-color graphic novel from Bryan Lee
+                                    O’Malley, author and artist of the hugely
+                                    bestselling Scott Pilgrim graphic novel series. Katie’s got it pretty good. She’s a
+                                    talented young chef, she runs a
+                                    successful restaurant, and she has big plans to open an even better one. Then, all
+                                    at once, progress on the new location
+                                    bogs down, her charming ex-boyfriend pops up, her fling with another chef goes sour,
+                                    and her best waitress gets badly
+                                    hurt. And just like that, Katie’s life goes from pretty good to not so much. What
+                                    she needs is a second chance.
+                                    Everybody deserves one, after all―but they don’t come easy. Luckily for Katie, a
+                                    mysterious girl appears in the middle
+                                    of the night with simple instructions for a do-it-yourself do-over: 1. Write your
+                                    mistake 2. Ingest one mushroom. 3. Go
+                                    to sleep. 4. Wake anew And just like that, all the bad stuff never happened, and
+                                    Katie is given another chance to get
+                                    things right. She’s also got a dresser drawer full of magical mushrooms―and an
+                                    irresistible urge to make her life not
+                                    just good, but perfect. Too bad it’s against the rules. But Katie doesn’t care about
+                                    the rules―and she’s about to
+                                    discover the unintended consequences of the best intentions. From the mind and pen
+                                    behind the acclaimed Scott Pilgrim
+                                    series comes a madcap new tale of existential angst, everyday obstacles, young love,
+                                    and ancient spirits that’s
+                                    sharp-witted and tenderhearted, whimsical and wise.</p>
+                            </div>
+                            <div class="TheLoaiSach__duoi__danhsach__item__thongtin__gia">
+                                <p>120.000 VNĐ</p>
+                            </div>
+                            <div class="TheLoaiSach__duoi__danhsach__item__thongtin__duoi">
+                                <div class="TheLoaiSach__duoi__danhsach__item__thongtin__duoi__trai">
+                                    <div class="TheLoaiSach__duoi__danhsach__item__thongtin__duoi__trai__tacgia">
+                                        <h1>Tác giả</h1>
+                                        <p>Chetan Bhagat</p>
+                                    </div>
+                                    <div class="TheLoaiSach__duoi__danhsach__item__thongtin__duoi__trai__nam">
+                                        <h1>Năm</h1>
+                                        <p>2019</p>
+                                    </div>
+                                </div>
+                                <div class="TheLoaiSach__duoi__danhsach__item__thongtin__duoi__phai">
+                                    <div class="TheLoaiSach__duoi__danhsach__item__thongtin__duoi__phai__nut">
+                                        <p>Thêm vào giỏ</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="Footer">
+        <div class="Footer__tren">
+            <div class="Footer__tren__item">
+                <Group class='Footer__tren__item__icon' />
+                <h1>125,663</h1>
+                <p>Số lượng người dùng</p>
+            </div>
+            <div class="Footer__tren__item">
+                <MenuBook class='Footer__tren__item__icon' />
+                <h1>50,672+</h1>
+                <p>Số lượng sách</p>
+            </div>
+            <div class="Footer__tren__item">
+                <StoreMallDirectory class='Footer__tren__item__icon' />
+                <h1>1,562</h1>
+                <p>Số cửa hàng</p>
+            </div>
+            <div class="Footer__tren__item">
+                <HistoryEdu class='Footer__tren__item__icon' />
+                <h1>457</h1>
+                <p>Số tác giả</p>
+            </div>
+        </div>
+        <div class="Footer__giua">
+            <img src="./img/typeemailbackground.png" alt="" />
+            <h1>Đăng ký email ở đây để có thể nhận được thông báo về nhiều cuốn sách hay nhất.</h1>
+            <div class="Footer__giua__email">
+                <input type="text" placeholder="Nhập email của bạn" />
+                <div class="Footer__giua__email__nut">Đăng ký</div>
+            </div>
+        </div>
+        <div class="Footer__duoi">
+            <div class="Footer__duoi__trai">
+                <div class="ThanhMenu__trai--logo">
+                    <img src="./img/Logo.png" alt="" />
+                    <div class="ThanhMenu__trai--ten">
+                        <h2>Bookoe</h2>
+                        <p>Book Store 5 Chú Hề</p>
+                    </div>
+                </div>
+                <div class="Footer__duoi__trai__thongtin">
+                    <p>Bookoe là trang web mua bán sách online của Công ty công nghệ và chất lượng cao 5 chú hề. Với Hề
+                        Captain là chủ tịch của công ty. Công ty đã có 21 năm kinh nghiệm trong việc điều hành và mua
+                        bán
+                        Bitcoin.</p>
+                </div>
+            </div>
+            <div class="Footer__duoi__giua">
+                <div class="Footer__duoi__theloai">
+                    <h1>Thể loại sách</h1>
+                    <div class="Footer__duoi__theloai__item">
+                        <h1>Action</h1>
+                        <h1>Advanture</h1>
+                        <h1>Comedy</h1>
+                        <h1>Crime</h1>
+                        <h1>Drama</h1>
+                        <h1>Fantasy</h1>
+                        <h1>Horor</h1>
+                        <h1>Law</h1>
+                        <h1>TV Series</h1>
+                        <h1>Romance</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="Footer__duoi__phai">
+                <h2>Cửa hàng của chúng tôi</h2>
+                <img src="./img/cuahang.jpg" alt="" />
+                <div class="Footer__duoi__diachi">
+                    <i class="fa fa-map-marker" aria-hidden="true" style="color : #6c5dd4; margin-right: 10px;"></i>
+                    <h1>Học viện Công nghệ Bưu chính viễn thông</h1>
+                </div>
+                <div class="Footer__duoi__sdt">
+                    <i class="fa fa-phone" aria-hidden="true" style="color : #6c5dd4;margin-right: 10px;"></i>
+                    <h1>+84 123456789</h1>
+                </div>
+                <div class="Footer__duoi__email">
+                    <i class="fa fa-envelope" aria-hidden="true" style="color : #6c5dd4;margin-right: 10px;"></i>
+                    <h1>bookoe5chuhe@gmail.com</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

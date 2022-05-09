@@ -1,0 +1,245 @@
+*{
+    border: 0;
+    top: 0;
+    margin: 0;
+    padding: 0;
+}
+.ThanhMenu {
+	 display: flex;
+	 flex-direction: row;
+	 justify-content: space-between;
+	 border: 1px solid rgba(0,0,0,.1);
+	 padding: 30px 0;
+	 align-items: center;
+	 color: #6c5dd4;
+	 z-index: 999;
+     font-family: 'Roboto', sans-serif;
+}
+ .ThanhMenu .ThanhMenu__trai {
+	 display: flex;
+	 flex-direction: row;
+	 width: 250px;
+	 margin-left: 150px;
+}
+ .ThanhMenu .ThanhMenu__trai .ThanhMenu__trai__link {
+	 text-decoration: none;
+}
+ .ThanhMenu .ThanhMenu__trai .ThanhMenu__trai--logo {
+	 display: flex;
+	 flex-direction: row;
+	 justify-content: center;
+	 cursor: pointer;
+}
+ .ThanhMenu .ThanhMenu__trai .ThanhMenu__trai--logo img {
+	 border-radius: 15px;
+	 width: 60px;
+	 height: 60px;
+	 object-fit: cover;
+}
+ .ThanhMenu .ThanhMenu__trai .ThanhMenu__trai--logo .ThanhMenu__trai--ten h1 {
+	 font-size: 30px;
+	 font-weight: 900;
+	 margin-left: 10px;
+     margin-top: 0;
+	 color: #333;
+	 text-decoration: none;
+     margin-bottom: 0;
+
+}
+ .ThanhMenu .ThanhMenu__trai .ThanhMenu__trai--logo .ThanhMenu__trai--ten p {
+	 font-size: 15px;
+	 margin-left: 10px;
+	 color: rgba(0,0,0,.8);
+	 text-decoration: none;
+     margin-top: 0;
+     margin-bottom: 0;
+}
+ .ThanhMenu .ThanhMenu__giua {
+	 display: flex;
+	 flex-direction: row;
+	 border: 1px solid rgba(0,0,0,.1);
+	 border-radius: 10px;
+	 width: 50%;
+	 margin: 0 20px;
+	 transition: all 0.3s ease-in-out;
+}
+ .ThanhMenu .ThanhMenu__giua .ThanhMenu__giua--menu {
+	 color: #6c5dd4;
+	 display: flex;
+	 flex-direction: row;
+	 justify-content: center;
+	 align-items: center;
+	 width: 150px;
+	 padding: 20px;
+	 cursor: pointer;
+	 transition: all 0.3s ease-in-out;
+	 position: relative;
+	 z-index: 99;
+}
+ .ThanhMenu .ThanhMenu__giua .ThanhMenu__giua--menu:hover {
+	 color: #6c5dd4;
+}
+ .ThanhMenu .ThanhMenu__giua .ThanhMenu__giua--menu .ThanhMenu__giua--menu--icon {
+	 padding: 0 10px;
+}
+ .ThanhMenu .ThanhMenu__giua .ThanhMenu__giua--menu p {
+	 font-weight: 900;
+}
+ .ThanhMenu .ThanhMenu__giua .ThanhMenu__giua--menu:hover .ThanhMenu__giua--menu--thanhphan {
+	 display: flex;
+	 flex-direction: column;
+}
+ .ThanhMenu .ThanhMenu__giua .ThanhMenu__giua--menu .ThanhMenu__giua--menu--thanhphan {
+	 position: absolute;
+	 top: 100%;
+	 left: 0;
+	 width: 200px;
+	 background-color: #6c5dd4;
+	 padding: 10px 30px;
+	 border-radius: 15px;
+	 display: none;
+}
+ .ThanhMenu .ThanhMenu__giua .ThanhMenu__giua--menu .ThanhMenu__giua--menu--thanhphan a {
+	 padding: 10px 20px;
+	 margin: 5px 0;
+	 border-radius: 10px;
+	 color: #6c5dd4;
+	 font-size: 20px;
+	 text-decoration: none;
+	 transition: all 0.3s ease-in-out;
+	 font-weight: 700;
+	 color: #fff;
+}
+ .ThanhMenu .ThanhMenu__giua .ThanhMenu__giua--menu .ThanhMenu__giua--menu--thanhphan a:hover {
+	 color: #6c5dd4;
+	 background-color: #fff;
+}
+ .ThanhMenu .ThanhMenu__giua .ThanhMenu__giua--timkiem {
+	 display: flex;
+	 flex-direction: row;
+	 align-items: center;
+	 width: 80%;
+}
+ .ThanhMenu .ThanhMenu__giua .ThanhMenu__giua--timkiem input {
+	 width: 100%;
+	 padding: 10px 0;
+	 outline: none;
+	 font-size: 20px;
+	 caret-color: #6c5dd4;
+     border: none;
+}
+ .ThanhMenu .ThanhMenu__giua .ThanhMenu__giua--timkiem input :focus {
+	 outline: none;
+}
+ .ThanhMenu .ThanhMenu__giua .ThanhMenu__giua--icon--timkiem {
+	 padding: 0 10px;
+	 display: flex;
+	 flex-direction: row;
+	 align-items: center;
+}
+ .ThanhMenu .ThanhMenu__giua .ThanhMenu__giua--icon--timkiem .ThanhMenu__giua--icon--timkiem--icon {
+	 font-size: 30px;
+	 padding: 10px;
+	 cursor: pointer;
+	 transition: all 0.3s ease-in-out;
+}
+ .ThanhMenu .ThanhMenu__giua .ThanhMenu__giua--icon--timkiem .ThanhMenu__giua--icon--timkiem--icon:hover {
+	 color: #6c5dd4;
+}
+ .ThanhMenu .ThanhMenu__phai {
+	 display: flex;
+	 flex-direction: row;
+	 align-items: center;
+	 margin-right: 150px;
+	 transition: all 1s ease-in-out;
+}
+ .ThanhMenu .ThanhMenu__phai .ThanhMenu__phai--dangky--icon {
+	 text-decoration: none;
+     color: white;
+}
+ .ThanhMenu .ThanhMenu__phai .ThanhMenu__phai--dangnhap {
+	 display: flex;
+	 flex-direction: row;
+	 align-items: center;
+	 background-color: #f1eeff;
+	 color: #6c5dd4;
+	 font-size: 18px;
+	 white-space: nowrap;
+	 padding: 15px;
+	 border-radius: 10px;
+	 font-weight: 700;
+	 margin-right: 15px;
+	 cursor: pointer;
+	 transition: all 0.3s ease-in-out;
+	 text-decoration: none;
+}
+ .ThanhMenu .ThanhMenu__phai .ThanhMenu__phai--dangnhap .ThanhMenu__phai--dangnhap__link {
+	 text-decoration: none;
+	 color: #6c5dd4;
+	 transition: all 0.3s ease-in-out;
+}
+ .ThanhMenu .ThanhMenu__phai .ThanhMenu__phai--dangnhap:hover {
+	 background-color: #6c5dd4;
+	 color: white;
+}
+ .ThanhMenu .ThanhMenu__phai .ThanhMenu__phai--dangnhap:hover .ThanhMenu__phai--dangnhap__link {
+	 color: white;
+}
+ .ThanhMenu .ThanhMenu__phai .ThanhMenu__phai--dangky {
+	 display: flex;
+	 flex-direction: row;
+	 align-items: center;
+	 color: white;
+	 background-color: #6c5dd4;
+	 padding: 15px 25px;
+	 font-size: 20px;
+	 font-weight: 500;
+	 border-radius: 10px;
+	 cursor: pointer;
+	 white-space: nowrap;
+	 transition: all 0.3s ease-in-out;
+	 box-shadow: 5px 14px 29px 3px rgba(108, 93, 212, 0.4);
+}
+ .ThanhMenu .ThanhMenu__phai .ThanhMenu__phai--dangky .ThanhMenu__phai--dangky__link {
+	 text-decoration: none;
+	 color: white;
+	 transition: all 0.3s ease-in-out;
+}
+ .ThanhMenu .ThanhMenu__phai .ThanhMenu__phai--dangky .ThanhMenu__phai--dangky--icon {
+	 margin-right: 10px;
+}
+ .ThanhMenu .ThanhMenu__phai .ThanhMenu__phai--dangky:hover {
+	 background-color: #9d91ec;
+	 color: #6c5dd4;
+}
+ .ThanhMenu .ThanhMenu__phai .ThanhMenu__phai--dangky:hover .ThanhMenu__phai--dangky__link {
+	 color: #6c5dd4;
+}
+ .ThanhMenu .ThanhMenu__phai .ThanhMenu__phai--giohang {
+	 display: flex;
+	 flex-direction: row;
+	 align-items: center;
+	 margin-right: 20px;
+	 color: black;
+	 border: 1px solid rgba(0,0,0,.1);
+	 padding: 15px;
+	 border-radius: 15px;
+	 transition: all 0.3s ease-in-out;
+	 cursor: pointer;
+     color: #6c5dd4;
+}
+ .ThanhMenu .ThanhMenu__phai .ThanhMenu__phai--giohang:hover {
+	 color: white;
+	 background-color: #6c5dd4;
+}
+ .ThanhMenu .ThanhMenu__phai .ThanhMenu__phai--avatar {
+	 margin-left: 20px;
+	 cursor: pointer;
+}
+ .ThanhMenu .ThanhMenu__phai .ThanhMenu__phai--avatar img {
+	 border-radius: 15px;
+	 width: 60px;
+	 height: 60px;
+	 object-fit: cover;
+}
+ 

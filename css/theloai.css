@@ -1,0 +1,403 @@
+.TheLoaiSach {
+	 margin: 0 150px;
+	 display: flex;
+	 flex-direction: column;
+	 margin-top: 20px;
+	 min-height: 1700px;
+}
+ .TheLoaiSach .TheLoaiSach__tren .TheLoaiSach__tren__link {
+	 text-decoration: none;
+	 color: #8d8c8c;
+}
+ .TheLoaiSach .TheLoaiSach__duoi {
+	 display: flex;
+	 flex-direction: row;
+	 margin-top: 80px;
+}
+ .TheLoaiSach .TheLoaiSach__duoi .TheLoaiSach__duoi__luachon {
+	 display: flex;
+	 flex-direction: column;
+	 width: 320px;
+	 border: 1px solid #eee;
+	 border-radius: 15px;
+	 padding: 20px;
+}
+ .TheLoaiSach .TheLoaiSach__duoi .TheLoaiSach__duoi__luachon .TheLoaiSach__duoi__luachon__title {
+	 font-size: 40px;
+	 font-weight: 800;
+	 color: #12152e;
+	 cursor: default;
+}
+ .TheLoaiSach .TheLoaiSach__duoi .TheLoaiSach__duoi__luachon .TheLoaiSach__duoi__luachon__sapxep {
+	 display: flex;
+	 flex-direction: column;
+	 margin-top: 20px;
+}
+ .TheLoaiSach .TheLoaiSach__duoi .TheLoaiSach__duoi__luachon .TheLoaiSach__duoi__luachon__sapxep .TheLoaiSach__duoi__luachon__sapxep__title h1 {
+	 font-size: 20px;
+	 color: #12152e;
+}
+ .TheLoaiSach .TheLoaiSach__duoi .TheLoaiSach__duoi__luachon .TheLoaiSach__duoi__luachon__sapxep .TheLoaiSach__duoi__luachon__sapxep__kieu {
+	 margin-top: 10px;
+}
+ .TheLoaiSach .TheLoaiSach__duoi .TheLoaiSach__duoi__luachon .TheLoaiSach__duoi__luachon__sapxep .TheLoaiSach__duoi__luachon__sapxep__kieu .TheLoaiSach__duoi__luachon__sapxep__kieu__form {
+	 width: 200px;
+}
+ .TheLoaiSach .TheLoaiSach__duoi .TheLoaiSach__duoi__luachon .TheLoaiSach__duoi__luachon__sapxep .TheLoaiSach__duoi__luachon__sapxep__kieu .TheLoaiSach__duoi__luachon__sapxep__kieu__form #TheLoaiSach__duoi__luachon__sapxep__kieu__ten {
+	 background-color: white;
+}
+ .TheLoaiSach .TheLoaiSach__duoi .TheLoaiSach__duoi__luachon .TheLoaiSach__duoi__luachon__nam {
+	 display: flex;
+	 flex-direction: column;
+	 margin-top: 20px;
+	 margin-bottom: 20px;
+}
+ .TheLoaiSach .TheLoaiSach__duoi .TheLoaiSach__duoi__luachon .TheLoaiSach__duoi__luachon__nam .TheLoaiSach__duoi__luachon__nam__title h1 {
+	 font-size: 20px;
+	 color: #12152e;
+}
+ .TheLoaiSach .TheLoaiSach__duoi .TheLoaiSach__duoi__luachon .TheLoaiSach__duoi__luachon__nam .TheLoaiSach__duoi__luachon__nam__nambatdau {
+	 display: flex;
+	 flex-direction: row;
+	 margin-top: 10px;
+	 align-items: center;
+	 height: 30px;
+}
+ .TheLoaiSach .TheLoaiSach__duoi .TheLoaiSach__duoi__luachon .TheLoaiSach__duoi__luachon__nam .TheLoaiSach__duoi__luachon__nam__nambatdau h1 {
+	 margin-right: 10px;
+	 width: 100px;
+	 font-size: 18px;
+	 white-space: nowrap;
+}
+ .TheLoaiSach .TheLoaiSach__duoi .TheLoaiSach__duoi__luachon .TheLoaiSach__duoi__luachon__nam .TheLoaiSach__duoi__luachon__nam__nambatdau input {
+	 outline: 1px solid #6c5dd4;
+	 border-radius: 5px;
+	 height: 30px;
+	 padding: 0 10px;
+}
+ .TheLoaiSach .TheLoaiSach__duoi .TheLoaiSach__duoi__luachon .TheLoaiSach__duoi__luachon__nam .TheLoaiSach__duoi__luachon__nam__nambatdau input::placeholder {
+	 padding: 0 20px;
+}
+ .TheLoaiSach .TheLoaiSach__duoi .TheLoaiSach__duoi__luachon .TheLoaiSach__duoi__luachon__nam .TheLoaiSach__duoi__luachon__nam__namketthuc {
+	 display: flex;
+	 flex-direction: row;
+	 margin-top: 10px;
+	 height: 30px;
+	 align-items: center;
+}
+ .TheLoaiSach .TheLoaiSach__duoi .TheLoaiSach__duoi__luachon .TheLoaiSach__duoi__luachon__nam .TheLoaiSach__duoi__luachon__nam__namketthuc h1 {
+	 margin-right: 10px;
+	 width: 100px;
+	 font-size: 18px;
+	 white-space: nowrap;
+}
+ .TheLoaiSach .TheLoaiSach__duoi .TheLoaiSach__duoi__luachon .TheLoaiSach__duoi__luachon__nam .TheLoaiSach__duoi__luachon__nam__namketthuc input {
+	 outline: 1px solid #6c5dd4;
+	 border-radius: 5px;
+	 height: 30px;
+	 padding: 0 10px;
+}
+ .TheLoaiSach .TheLoaiSach__duoi .TheLoaiSach__duoi__luachon .TheLoaiSach__duoi__luachon__nam .TheLoaiSach__duoi__luachon__nam__namketthuc input::placeholder {
+	 padding: 0 20px;
+}
+ .TheLoaiSach .TheLoaiSach__duoi .TheLoaiSach__duoi__luachon .TheLoaiSach__duoi__luachon__theloai {
+	 display: flex;
+	 flex-direction: row;
+	 align-items: center;
+}
+ .TheLoaiSach .TheLoaiSach__duoi .TheLoaiSach__duoi__luachon .TheLoaiSach__duoi__luachon__theloai .TheLoaiSach__duoi__luachon__theloai__title {
+	 margin-right: 20px;
+}
+ .TheLoaiSach .TheLoaiSach__duoi .TheLoaiSach__duoi__luachon .TheLoaiSach__duoi__luachon__theloai .TheLoaiSach__duoi__luachon__theloai__title h1 {
+	 font-size: 20px;
+	 color: #12152e;
+	 white-space: nowrap;
+}
+ .TheLoaiSach .TheLoaiSach__duoi .TheLoaiSach__duoi__luachon .TheLoaiSach__duoi__luachon__theloai .TheLoaiSach__duoi__luachon__theloai__luachon {
+	 display: flex;
+	 flex-direction: row;
+	 flex-wrap: wrap;
+	 align-items: center;
+}
+ .TheLoaiSach .TheLoaiSach__duoi .TheLoaiSach__duoi__luachon .TheLoaiSach__duoi__luachon__theloai .TheLoaiSach__duoi__luachon__theloai__luachon #theloais {
+	 border: 1px solid #d1d1d1;
+	 border-radius: 5px;
+	 height: 50px;
+	 width: 100px;
+}
+ .TheLoaiSach .TheLoaiSach__duoi .TheLoaiSach__duoi__luachon .TheLoaiSach__duoi__luachon__theloai .TheLoaiSach__duoi__luachon__theloai__luachon .TheLoaiSach__duoi__luachon__theloai__luachon__item {
+	 display: flex;
+	 flex-direction: row;
+	 align-items: center;
+	 width: 150px;
+	 color: #2e3046;
+	 font-size: 18px;
+	 cursor: pointer;
+}
+ .TheLoaiSach .TheLoaiSach__duoi .TheLoaiSach__duoi__luachon .TheLoaiSach__duoi__luachon__theloai .TheLoaiSach__duoi__luachon__theloai__luachon .TheLoaiSach__duoi__luachon__theloai__luachon__item #TheLoaiSach__duoi__luachon__theloai__luachon__item__checkbox {
+	 height: 25px;
+	 width: 25px;
+	 background-color: #eee;
+	 border-radius: 50%;
+	 margin-right: 10px;
+	 margin-top: 5px;
+	 margin-bottom: 5px;
+	 accent-color: #6c5dd4;
+}
+ .TheLoaiSach .TheLoaiSach__duoi .TheLoaiSach__duoi__luachon .TheLoaiSach__duoi__luachon__gia {
+	 display: flex;
+	 flex-direction: column;
+	 margin-top: 20px;
+}
+ .TheLoaiSach .TheLoaiSach__duoi .TheLoaiSach__duoi__luachon .TheLoaiSach__duoi__luachon__gia .TheLoaiSach__duoi__luachon__gia__title h1 {
+	 font-size: 20px;
+	 color: #12152e;
+}
+ .TheLoaiSach .TheLoaiSach__duoi .TheLoaiSach__duoi__luachon .TheLoaiSach__duoi__luachon__gia .TheLoaiSach__duoi__luachon__gia__tu__den {
+	 display: flex;
+	 flex-direction: row;
+	 align-items: center;
+	 margin-top: 10px;
+}
+ .TheLoaiSach .TheLoaiSach__duoi .TheLoaiSach__duoi__luachon .TheLoaiSach__duoi__luachon__gia .TheLoaiSach__duoi__luachon__gia__tu__den h1 {
+	 margin-right: 10px;
+	  font-size: 18px;
+}
+ .TheLoaiSach .TheLoaiSach__duoi .TheLoaiSach__duoi__luachon .TheLoaiSach__duoi__luachon__gia .TheLoaiSach__duoi__luachon__gia__tu__den .TheLoaiSach__duoi__luachon__gia__tu__den__icon {
+	 font-size: 20px;
+	 color: #6c5dd4;
+	 margin: 0 10px;
+}
+ .TheLoaiSach .TheLoaiSach__duoi .TheLoaiSach__duoi__luachon .TheLoaiSach__duoi__luachon__gia .TheLoaiSach__duoi__luachon__gia__tu__den .TheLoaiSach__duoi__luachon__gia__tu__den__input {
+	 width: 60px;
+	 margin-right: 10px;
+	 outline: 1px solid #6c5dd4;
+	 border-radius: 5px;
+	 padding: 0 5px;
+}
+ .TheLoaiSach .TheLoaiSach__duoi .TheLoaiSach__duoi__luachon .TheLoaiSach__duoi__luachon__gia .TheLoaiSach__duoi__luachon__gia__tu__den .TheLoaiSach__duoi__luachon__gia__tu__den__input::placeholder {
+	 padding: 0 5px;
+}
+ .TheLoaiSach .TheLoaiSach__duoi .TheLoaiSach__duoi__luachon .TheLoaiSach__duoi__luachon__timkiem {
+	 display: flex;
+	 flex-direction: column;
+	 margin-top: 20px;
+}
+ .TheLoaiSach .TheLoaiSach__duoi .TheLoaiSach__duoi__luachon .TheLoaiSach__duoi__luachon__timkiem .TheLoaiSach__duoi__luachon__timkiem__timkiem {
+	 background-color: #6c5dd4;
+	 color: white;
+	 text-align: center;
+	 padding: 20px 0;
+	 border-radius: 15px;
+	 margin-bottom: 20px;
+	 font-weight: 600;
+	 cursor: pointer;
+	 transition: all 0.3s ease-in-out;
+}
+ .TheLoaiSach .TheLoaiSach__duoi .TheLoaiSach__duoi__luachon .TheLoaiSach__duoi__luachon__timkiem .TheLoaiSach__duoi__luachon__timkiem__timkiem:hover {
+	 background-color: #8e96e2;
+}
+ .TheLoaiSach .TheLoaiSach__duoi .TheLoaiSach__duoi__luachon .TheLoaiSach__duoi__luachon__timkiem .TheLoaiSach__duoi__luachon__timkiem__reset {
+	 background-color: transparent;
+	 color: #8f8d8d;
+	 text-align: center;
+	 padding: 20px 0;
+	 border-radius: 15px;
+	 font-weight: 600;
+	 border: 1px solid #8f8d8d;
+	 transition: all 0.3s ease-in-out;
+	 cursor: pointer;
+}
+ .TheLoaiSach .TheLoaiSach__duoi .TheLoaiSach__duoi__luachon .TheLoaiSach__duoi__luachon__timkiem .TheLoaiSach__duoi__luachon__timkiem__reset:hover {
+	 background-color: #ebd2d2;
+	 color: #333;
+}
+ .TheLoaiSach .TheLoaiSach__duoi .TheLoaiSach__duoi__danhsach {
+	 display: flex;
+	 flex-direction: column;
+	 margin-left: 40px;
+	 position: relative;
+}
+ .TheLoaiSach .TheLoaiSach__duoi .TheLoaiSach__duoi__danhsach .TheLoaiSach__duoi__danhsach__title h1 {
+	 font-size: 30px;
+	 color: #12152e;
+	 font-weight: 800;
+}
+ .TheLoaiSach .TheLoaiSach__duoi .TheLoaiSach__duoi__danhsach .TheLoaiSach__duoi__danhsach__items {
+	 display: flex;
+	 flex-direction: column;
+	 height: 1448px;
+}
+ .TheLoaiSach .TheLoaiSach__duoi .TheLoaiSach__duoi__danhsach .TheLoaiSach__duoi__danhsach__items .TheLoaiSach__duoi__danhsach__item {
+	 display: flex;
+	 flex-direction: row;
+	 position: relative;
+	 border: 1px solid #eee;
+	 padding: 20px;
+	 border-radius: 15px;
+	 margin-bottom: 20px;
+	 transition: all 0.3s ease-in-out;
+}
+ .TheLoaiSach .TheLoaiSach__duoi .TheLoaiSach__duoi__danhsach .TheLoaiSach__duoi__danhsach__items .TheLoaiSach__duoi__danhsach__item .TheLoaiSach__duoi__danhsach__item__link {
+	 text-decoration: none;
+	 cursor: pointer;
+}
+ .TheLoaiSach .TheLoaiSach__duoi .TheLoaiSach__duoi__danhsach .TheLoaiSach__duoi__danhsach__items .TheLoaiSach__duoi__danhsach__item:hover {
+	 -webkit-box-shadow: 6px 8px 15px 0px rgba(108, 93, 212, 0.79);
+	 box-shadow: 6px 8px 15px 0px rgba(108, 93, 212, 0.79);
+}
+ .TheLoaiSach .TheLoaiSach__duoi .TheLoaiSach__duoi__danhsach .TheLoaiSach__duoi__danhsach__items .TheLoaiSach__duoi__danhsach__item .TheLoaiSach__duoi__danhsach__item__hinhanh {
+	 width: 216px;
+	 height: 300px;
+	 position: relative;
+	 margin-right: 40px;
+	 border-radius: 15px;
+}
+ .TheLoaiSach .TheLoaiSach__duoi .TheLoaiSach__duoi__danhsach .TheLoaiSach__duoi__danhsach__items .TheLoaiSach__duoi__danhsach__item .TheLoaiSach__duoi__danhsach__item__hinhanh img {
+	 border-radius: 15px;
+	 position: relative;
+	 width: 216px;
+	 height: 300px;
+	 object-fit: cover;
+	 transition: all 0.3s ease-in-out;
+	 overflow: hidden;
+	 cursor: pointer;
+}
+ .TheLoaiSach .TheLoaiSach__duoi .TheLoaiSach__duoi__danhsach .TheLoaiSach__duoi__danhsach__items .TheLoaiSach__duoi__danhsach__item .TheLoaiSach__duoi__danhsach__item__hinhanh img:hover {
+	 transform: scale(1.01);
+}
+ .TheLoaiSach .TheLoaiSach__duoi .TheLoaiSach__duoi__danhsach .TheLoaiSach__duoi__danhsach__items .TheLoaiSach__duoi__danhsach__item .TheLoaiSach__duoi__danhsach__item__thongtin {
+	 display: flex;
+	 flex-direction: column;
+}
+ .TheLoaiSach .TheLoaiSach__duoi .TheLoaiSach__duoi__danhsach .TheLoaiSach__duoi__danhsach__items .TheLoaiSach__duoi__danhsach__item .TheLoaiSach__duoi__danhsach__item__thongtin .TheLoaiSach__duoi__danhsach__item__thongtin__tren {
+	 display: flex;
+	 flex-direction: row;
+	 justify-content: space-between;
+	 margin-bottom: 20px;
+}
+ .TheLoaiSach .TheLoaiSach__duoi .TheLoaiSach__duoi__danhsach .TheLoaiSach__duoi__danhsach__items .TheLoaiSach__duoi__danhsach__item .TheLoaiSach__duoi__danhsach__item__thongtin .TheLoaiSach__duoi__danhsach__item__thongtin__tren .TheLoaiSach__duoi__danhsach__item__thongtin__title {
+	 display: flex;
+	 flex-direction: column;
+}
+ .TheLoaiSach .TheLoaiSach__duoi .TheLoaiSach__duoi__danhsach .TheLoaiSach__duoi__danhsach__items .TheLoaiSach__duoi__danhsach__item .TheLoaiSach__duoi__danhsach__item__thongtin .TheLoaiSach__duoi__danhsach__item__thongtin__tren .TheLoaiSach__duoi__danhsach__item__thongtin__title h1 {
+	 font-size: 30px;
+	 color: #12152e;
+	 font-weight: 600;
+	 margin-top: 5px;
+	 display: -webkit-box;
+	 -webkit-line-clamp: 1;
+	 -webkit-box-orient: vertical;
+	 overflow: hidden;
+}
+ .TheLoaiSach .TheLoaiSach__duoi .TheLoaiSach__duoi__danhsach .TheLoaiSach__duoi__danhsach__items .TheLoaiSach__duoi__danhsach__item .TheLoaiSach__duoi__danhsach__item__thongtin .TheLoaiSach__duoi__danhsach__item__thongtin__tren .TheLoaiSach__duoi__danhsach__item__thongtin__title .TheLoaiSach__duoi__danhsach__item__theloai p {
+	 color: #6c5dd4;
+	 margin-top: 5px;
+}
+ .TheLoaiSach .TheLoaiSach__duoi .TheLoaiSach__duoi__danhsach .TheLoaiSach__duoi__danhsach__items .TheLoaiSach__duoi__danhsach__item .TheLoaiSach__duoi__danhsach__item__thongtin .TheLoaiSach__duoi__danhsach__item__thongtin__tren .TheLoaiSach__duoi__danhsach__item__thongtin__phai {
+	 display: flex;
+	 flex-direction: column;
+}
+ .TheLoaiSach .TheLoaiSach__duoi .TheLoaiSach__duoi__danhsach .TheLoaiSach__duoi__danhsach__items .TheLoaiSach__duoi__danhsach__item .TheLoaiSach__duoi__danhsach__item__thongtin .TheLoaiSach__duoi__danhsach__item__thongtin__tren .TheLoaiSach__duoi__danhsach__item__thongtin__phai .TheLoaiSach__duoi__danhsach__item__danhgia {
+	 display: flex;
+	 flex-direction: row;
+}
+ .TheLoaiSach .TheLoaiSach__duoi .TheLoaiSach__duoi__danhsach .TheLoaiSach__duoi__danhsach__items .TheLoaiSach__duoi__danhsach__item .TheLoaiSach__duoi__danhsach__item__thongtin .TheLoaiSach__duoi__danhsach__item__thongtin__tren .TheLoaiSach__duoi__danhsach__item__thongtin__phai .TheLoaiSach__duoi__danhsach__item__danhgia .TheLoaiSach__duoi__danhsach__item__danhgia__sao {
+	 color: #e1e1e1;
+}
+ .TheLoaiSach .TheLoaiSach__duoi .TheLoaiSach__duoi__danhsach .TheLoaiSach__duoi__danhsach__items .TheLoaiSach__duoi__danhsach__item .TheLoaiSach__duoi__danhsach__item__thongtin .TheLoaiSach__duoi__danhsach__item__thongtin__tren .TheLoaiSach__duoi__danhsach__item__thongtin__phai .TheLoaiSach__duoi__danhsach__item__danhgia .TheLoaiSach__duoi__danhsach__item__danhgia__sao.active {
+	 color: #ff764c;
+}
+ .TheLoaiSach .TheLoaiSach__duoi .TheLoaiSach__duoi__danhsach .TheLoaiSach__duoi__danhsach__items .TheLoaiSach__duoi__danhsach__item .TheLoaiSach__duoi__danhsach__item__thongtin .TheLoaiSach__duoi__danhsach__item__thongtin__tren .TheLoaiSach__duoi__danhsach__item__thongtin__phai p {
+	 text-align: right;
+	 color: #12152e;
+	 font-weight: 700;
+	 margin-top: 5px;
+}
+ .TheLoaiSach .TheLoaiSach__duoi .TheLoaiSach__duoi__danhsach .TheLoaiSach__duoi__danhsach__items .TheLoaiSach__duoi__danhsach__item .TheLoaiSach__duoi__danhsach__item__thongtin .TheLoaiSach__duoi__danhsach__item__thongtin__desc p {
+	 color: #3d3d3d;
+	 font-weight: 500;
+	 margin-top: 5px;
+	 display: -webkit-box;
+	 -webkit-line-clamp: 3;
+	 -webkit-box-orient: vertical;
+	 overflow: hidden;
+	 font-size: 15px;
+	 margin-bottom: 20px;
+}
+ .TheLoaiSach .TheLoaiSach__duoi .TheLoaiSach__duoi__danhsach .TheLoaiSach__duoi__danhsach__items .TheLoaiSach__duoi__danhsach__item .TheLoaiSach__duoi__danhsach__item__thongtin .TheLoaiSach__duoi__danhsach__item__thongtin__gia {
+	 margin-bottom: 20px;
+}
+ .TheLoaiSach .TheLoaiSach__duoi .TheLoaiSach__duoi__danhsach .TheLoaiSach__duoi__danhsach__items .TheLoaiSach__duoi__danhsach__item .TheLoaiSach__duoi__danhsach__item__thongtin .TheLoaiSach__duoi__danhsach__item__thongtin__gia p {
+	 font-size: 30px;
+	 font-weight: 800;
+}
+ .TheLoaiSach .TheLoaiSach__duoi .TheLoaiSach__duoi__danhsach .TheLoaiSach__duoi__danhsach__items .TheLoaiSach__duoi__danhsach__item .TheLoaiSach__duoi__danhsach__item__thongtin .TheLoaiSach__duoi__danhsach__item__thongtin__duoi {
+	 display: flex;
+	 flex-direction: row;
+	 justify-content: space-between;
+	 align-items: center;
+}
+ .TheLoaiSach .TheLoaiSach__duoi .TheLoaiSach__duoi__danhsach .TheLoaiSach__duoi__danhsach__items .TheLoaiSach__duoi__danhsach__item .TheLoaiSach__duoi__danhsach__item__thongtin .TheLoaiSach__duoi__danhsach__item__thongtin__duoi .TheLoaiSach__duoi__danhsach__item__thongtin__duoi__trai {
+	 display: flex;
+	 flex-direction: row;
+	 align-items: center;
+}
+ .TheLoaiSach .TheLoaiSach__duoi .TheLoaiSach__duoi__danhsach .TheLoaiSach__duoi__danhsach__items .TheLoaiSach__duoi__danhsach__item .TheLoaiSach__duoi__danhsach__item__thongtin .TheLoaiSach__duoi__danhsach__item__thongtin__duoi .TheLoaiSach__duoi__danhsach__item__thongtin__duoi__trai .TheLoaiSach__duoi__danhsach__item__thongtin__duoi__trai__tacgia {
+	 margin-right: 60px;
+}
+ .TheLoaiSach .TheLoaiSach__duoi .TheLoaiSach__duoi__danhsach .TheLoaiSach__duoi__danhsach__items .TheLoaiSach__duoi__danhsach__item .TheLoaiSach__duoi__danhsach__item__thongtin .TheLoaiSach__duoi__danhsach__item__thongtin__duoi .TheLoaiSach__duoi__danhsach__item__thongtin__duoi__trai .TheLoaiSach__duoi__danhsach__item__thongtin__duoi__trai__tacgia h1 {
+	 color: #aaa5a5;
+	 font-weight: 400;
+	 text-align: left;
+	 font-size: 20px;
+	 white-space: nowrap;
+}
+ .TheLoaiSach .TheLoaiSach__duoi .TheLoaiSach__duoi__danhsach .TheLoaiSach__duoi__danhsach__items .TheLoaiSach__duoi__danhsach__item .TheLoaiSach__duoi__danhsach__item__thongtin .TheLoaiSach__duoi__danhsach__item__thongtin__duoi .TheLoaiSach__duoi__danhsach__item__thongtin__duoi__trai .TheLoaiSach__duoi__danhsach__item__thongtin__duoi__trai__tacgia p {
+	 color: #333;
+	 font-weight: 600;
+	 text-align: center;
+	 white-space: nowrap;
+}
+ .TheLoaiSach .TheLoaiSach__duoi .TheLoaiSach__duoi__danhsach .TheLoaiSach__duoi__danhsach__items .TheLoaiSach__duoi__danhsach__item .TheLoaiSach__duoi__danhsach__item__thongtin .TheLoaiSach__duoi__danhsach__item__thongtin__duoi .TheLoaiSach__duoi__danhsach__item__thongtin__duoi__trai .TheLoaiSach__duoi__danhsach__item__thongtin__duoi__trai__nam {
+	 margin-right: 60px;
+	 
+}
+ .TheLoaiSach .TheLoaiSach__duoi .TheLoaiSach__duoi__danhsach .TheLoaiSach__duoi__danhsach__items .TheLoaiSach__duoi__danhsach__item .TheLoaiSach__duoi__danhsach__item__thongtin .TheLoaiSach__duoi__danhsach__item__thongtin__duoi .TheLoaiSach__duoi__danhsach__item__thongtin__duoi__trai .TheLoaiSach__duoi__danhsach__item__thongtin__duoi__trai__nam h1 {
+	 color: #aaa5a5;
+	 font-weight: 400;
+	 text-align: left;
+	 white-space: nowrap;
+	 font-size: 20px;
+}
+ .TheLoaiSach .TheLoaiSach__duoi .TheLoaiSach__duoi__danhsach .TheLoaiSach__duoi__danhsach__items .TheLoaiSach__duoi__danhsach__item .TheLoaiSach__duoi__danhsach__item__thongtin .TheLoaiSach__duoi__danhsach__item__thongtin__duoi .TheLoaiSach__duoi__danhsach__item__thongtin__duoi__trai .TheLoaiSach__duoi__danhsach__item__thongtin__duoi__trai__nam p {
+	 color: #333;
+	 font-weight: 600;
+	 text-align: center;
+}
+ .TheLoaiSach .TheLoaiSach__duoi .TheLoaiSach__duoi__danhsach .TheLoaiSach__duoi__danhsach__items .TheLoaiSach__duoi__danhsach__item .TheLoaiSach__duoi__danhsach__item__thongtin .TheLoaiSach__duoi__danhsach__item__thongtin__duoi .TheLoaiSach__duoi__danhsach__item__thongtin__duoi__phai {
+	 display: flex;
+	 flex-direction: row;
+}
+ .TheLoaiSach .TheLoaiSach__duoi .TheLoaiSach__duoi__danhsach .TheLoaiSach__duoi__danhsach__items .TheLoaiSach__duoi__danhsach__item .TheLoaiSach__duoi__danhsach__item__thongtin .TheLoaiSach__duoi__danhsach__item__thongtin__duoi .TheLoaiSach__duoi__danhsach__item__thongtin__duoi__phai .TheLoaiSach__duoi__danhsach__item__thongtin__duoi__phai__nut {
+	 display: flex;
+	 flex-direction: row;
+	 align-items: center;
+	 background-color: #6c5dd4;
+	 padding: 20px 30px;
+	 border-radius: 15px;
+	 cursor: pointer;
+	 transition: all 0.3s ease-in-out;
+}
+ .TheLoaiSach .TheLoaiSach__duoi .TheLoaiSach__duoi__danhsach .TheLoaiSach__duoi__danhsach__items .TheLoaiSach__duoi__danhsach__item .TheLoaiSach__duoi__danhsach__item__thongtin .TheLoaiSach__duoi__danhsach__item__thongtin__duoi .TheLoaiSach__duoi__danhsach__item__thongtin__duoi__phai .TheLoaiSach__duoi__danhsach__item__thongtin__duoi__phai__nut .TheLoaiSach__duoi__danhsach__item__thongtin__duoi__phai__nut__icon {
+	 color: white;
+	 margin-right: 5px;
+}
+ .TheLoaiSach .TheLoaiSach__duoi .TheLoaiSach__duoi__danhsach .TheLoaiSach__duoi__danhsach__items .TheLoaiSach__duoi__danhsach__item .TheLoaiSach__duoi__danhsach__item__thongtin .TheLoaiSach__duoi__danhsach__item__thongtin__duoi .TheLoaiSach__duoi__danhsach__item__thongtin__duoi__phai .TheLoaiSach__duoi__danhsach__item__thongtin__duoi__phai__nut p {
+	 color: white;
+	 font-weight: 600;
+}
+ .TheLoaiSach .TheLoaiSach__duoi .TheLoaiSach__duoi__danhsach .TheLoaiSach__duoi__danhsach__items .TheLoaiSach__duoi__danhsach__item .TheLoaiSach__duoi__danhsach__item__thongtin .TheLoaiSach__duoi__danhsach__item__thongtin__duoi .TheLoaiSach__duoi__danhsach__item__thongtin__duoi__phai .TheLoaiSach__duoi__danhsach__item__thongtin__duoi__phai__nut:hover {
+	 background-color: #8e96e2;
+}
+ 

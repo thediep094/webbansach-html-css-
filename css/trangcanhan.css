@@ -1,0 +1,285 @@
+.TrangCaNhanChiTiet {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin: 0 150px;
+}
+.TrangCaNhanChiTiet .TrangCaNhanChiTiet__trai {
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+  width: calc(100% - 70% - 50px);
+}
+.TrangCaNhanChiTiet .TrangCaNhanChiTiet__trai .TrangCaNhanChiTiet__trai__tren__anh {
+  width: 225px;
+  height: 225px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.TrangCaNhanChiTiet .TrangCaNhanChiTiet__trai .TrangCaNhanChiTiet__trai__tren__anh img {
+  width: 225px;
+  height: 225px;
+  object-fit: cover;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.TrangCaNhanChiTiet .TrangCaNhanChiTiet__trai .TrangCaNhanChiTiet__trai__tren__anh img:hover {
+  transform: scale(1.1);
+}
+.TrangCaNhanChiTiet .TrangCaNhanChiTiet__trai .TrangCaNhanChiTiet__trai__duoi {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.TrangCaNhanChiTiet .TrangCaNhanChiTiet__trai .TrangCaNhanChiTiet__trai__duoi .TrangCaNhanChiTiet__trai__duoi__item {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.TrangCaNhanChiTiet .TrangCaNhanChiTiet__trai .TrangCaNhanChiTiet__trai__duoi .TrangCaNhanChiTiet__trai__duoi__item h1 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #000;
+}
+.TrangCaNhanChiTiet .TrangCaNhanChiTiet__trai .TrangCaNhanChiTiet__trai__duoi .TrangCaNhanChiTiet__trai__duoi__item input {
+  margin-top: 5px;
+  width: 300px;
+  height: 50px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 0 10px;
+}
+.TrangCaNhanChiTiet .TrangCaNhanChiTiet__trai .TrangCaNhanChiTiet__button {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+}
+.TrangCaNhanChiTiet .TrangCaNhanChiTiet__trai .TrangCaNhanChiTiet__button #TrangCaNhanChiTiet__button {
+  width: 150px;
+  height: 40px;
+  background-color: #6c5dd4;
+  color: #eee;
+  font-weight: 500;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.TrangCaNhanChiTiet .TrangCaNhanChiTiet__trai .TrangCaNhanChiTiet__button #TrangCaNhanChiTiet__button:hover {
+  background-color: #eee;
+  color: #6c5dd4;
+}
+.TrangCaNhanChiTiet .TrangCaNhanChiTiet__phai {
+  display: flex;
+  flex-direction: row;
+  margin-top: 80px;
+  width: 70%;
+}
+.TrangCaNhanChiTiet .TrangCaNhanChiTiet__phai .TrangCaNhanChiTiet__phai__danhsach {
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+  position: relative;
+}
+.TrangCaNhanChiTiet .TrangCaNhanChiTiet__phai .TrangCaNhanChiTiet__phai__danhsach .TrangCaNhanChiTiet__phai__danhsach__title h1 {
+  font-size: 30px;
+  color: #12152E;
+  font-weight: 800;
+}
+.TrangCaNhanChiTiet .TrangCaNhanChiTiet__phai .TrangCaNhanChiTiet__phai__danhsach .TrangCaNhanChiTiet__phai__danhsach__items {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.TrangCaNhanChiTiet .TrangCaNhanChiTiet__phai .TrangCaNhanChiTiet__phai__danhsach .TrangCaNhanChiTiet__phai__danhsach__items .TrangCaNhanChiTiet__phai__danhsach__item {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  border: 1px solid #eee;
+  padding: 20px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  transition: all 0.3s ease-in-out;
+}
+.TrangCaNhanChiTiet .TrangCaNhanChiTiet__phai .TrangCaNhanChiTiet__phai__danhsach .TrangCaNhanChiTiet__phai__danhsach__items .TrangCaNhanChiTiet__phai__danhsach__item .TrangCaNhanChiTiet__phai__danhsach__item__link {
+  text-decoration: none;
+  cursor: pointer;
+}
+.TrangCaNhanChiTiet .TrangCaNhanChiTiet__phai .TrangCaNhanChiTiet__phai__danhsach .TrangCaNhanChiTiet__phai__danhsach__items .TrangCaNhanChiTiet__phai__danhsach__item:hover {
+  -webkit-box-shadow: 6px 8px 15px 0px rgba(108, 93, 212, 0.79);
+  box-shadow: 6px 8px 15px 0px rgba(108, 93, 212, 0.79);
+}
+.TrangCaNhanChiTiet .TrangCaNhanChiTiet__phai .TrangCaNhanChiTiet__phai__danhsach .TrangCaNhanChiTiet__phai__danhsach__items .TrangCaNhanChiTiet__phai__danhsach__item .TrangCaNhanChiTiet__phai__danhsach__item__hinhanh {
+  width: 216px;
+  height: 300px;
+  position: relative;
+  margin-right: 40px;
+  border-radius: 15px;
+}
+.TrangCaNhanChiTiet .TrangCaNhanChiTiet__phai .TrangCaNhanChiTiet__phai__danhsach .TrangCaNhanChiTiet__phai__danhsach__items .TrangCaNhanChiTiet__phai__danhsach__item .TrangCaNhanChiTiet__phai__danhsach__item__hinhanh img {
+  border-radius: 15px;
+  position: relative;
+  width: 216px;
+  height: 300px;
+  object-fit: cover;
+  transition: all 0.3s ease-in-out;
+  overflow: hidden;
+  cursor: pointer;
+}
+.TrangCaNhanChiTiet .TrangCaNhanChiTiet__phai .TrangCaNhanChiTiet__phai__danhsach .TrangCaNhanChiTiet__phai__danhsach__items .TrangCaNhanChiTiet__phai__danhsach__item .TrangCaNhanChiTiet__phai__danhsach__item__hinhanh img:hover {
+  transform: scale(1.01);
+}
+.TrangCaNhanChiTiet .TrangCaNhanChiTiet__phai .TrangCaNhanChiTiet__phai__danhsach .TrangCaNhanChiTiet__phai__danhsach__items .TrangCaNhanChiTiet__phai__danhsach__item .TrangCaNhanChiTiet__phai__danhsach__item__thongtin {
+  display: flex;
+  flex-direction: column;
+}
+.TrangCaNhanChiTiet .TrangCaNhanChiTiet__phai .TrangCaNhanChiTiet__phai__danhsach .TrangCaNhanChiTiet__phai__danhsach__items .TrangCaNhanChiTiet__phai__danhsach__item .TrangCaNhanChiTiet__phai__danhsach__item__thongtin .TrangCaNhanChiTiet__phai__danhsach__item__thongtin__tren {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.TrangCaNhanChiTiet .TrangCaNhanChiTiet__phai .TrangCaNhanChiTiet__phai__danhsach .TrangCaNhanChiTiet__phai__danhsach__items .TrangCaNhanChiTiet__phai__danhsach__item .TrangCaNhanChiTiet__phai__danhsach__item__thongtin .TrangCaNhanChiTiet__phai__danhsach__item__thongtin__tren .TrangCaNhanChiTiet__phai__danhsach__item__thongtin__title {
+  display: flex;
+  flex-direction: column;
+}
+.TrangCaNhanChiTiet .TrangCaNhanChiTiet__phai .TrangCaNhanChiTiet__phai__danhsach .TrangCaNhanChiTiet__phai__danhsach__items .TrangCaNhanChiTiet__phai__danhsach__item .TrangCaNhanChiTiet__phai__danhsach__item__thongtin .TrangCaNhanChiTiet__phai__danhsach__item__thongtin__tren .TrangCaNhanChiTiet__phai__danhsach__item__thongtin__title h1 {
+  font-size: 30px;
+  color: #12152E;
+  font-weight: 600;
+  margin-top: 5px;
+}
+.TrangCaNhanChiTiet .TrangCaNhanChiTiet__phai .TrangCaNhanChiTiet__phai__danhsach .TrangCaNhanChiTiet__phai__danhsach__items .TrangCaNhanChiTiet__phai__danhsach__item .TrangCaNhanChiTiet__phai__danhsach__item__thongtin .TrangCaNhanChiTiet__phai__danhsach__item__thongtin__tren .TrangCaNhanChiTiet__phai__danhsach__item__thongtin__title .TrangCaNhanChiTiet__phai__danhsach__item__theloai p {
+  color: #6c5dd4;
+  margin-top: 5px;
+}
+.TrangCaNhanChiTiet .TrangCaNhanChiTiet__phai .TrangCaNhanChiTiet__phai__danhsach .TrangCaNhanChiTiet__phai__danhsach__items .TrangCaNhanChiTiet__phai__danhsach__item .TrangCaNhanChiTiet__phai__danhsach__item__thongtin .TrangCaNhanChiTiet__phai__danhsach__item__thongtin__tren .TrangCaNhanChiTiet__phai__danhsach__item__thongtin__phai {
+  display: flex;
+  flex-direction: column;
+}
+.TrangCaNhanChiTiet .TrangCaNhanChiTiet__phai .TrangCaNhanChiTiet__phai__danhsach .TrangCaNhanChiTiet__phai__danhsach__items .TrangCaNhanChiTiet__phai__danhsach__item .TrangCaNhanChiTiet__phai__danhsach__item__thongtin .TrangCaNhanChiTiet__phai__danhsach__item__thongtin__tren .TrangCaNhanChiTiet__phai__danhsach__item__thongtin__phai .TrangCaNhanChiTiet__phai__danhsach__item__danhgia {
+  display: flex;
+  flex-direction: row;
+}
+.TrangCaNhanChiTiet .TrangCaNhanChiTiet__phai .TrangCaNhanChiTiet__phai__danhsach .TrangCaNhanChiTiet__phai__danhsach__items .TrangCaNhanChiTiet__phai__danhsach__item .TrangCaNhanChiTiet__phai__danhsach__item__thongtin .TrangCaNhanChiTiet__phai__danhsach__item__thongtin__tren .TrangCaNhanChiTiet__phai__danhsach__item__thongtin__phai .TrangCaNhanChiTiet__phai__danhsach__item__danhgia .TrangCaNhanChiTiet__phai__danhsach__item__danhgia__sao {
+  color: #E1E1E1;
+}
+.TrangCaNhanChiTiet .TrangCaNhanChiTiet__phai .TrangCaNhanChiTiet__phai__danhsach .TrangCaNhanChiTiet__phai__danhsach__items .TrangCaNhanChiTiet__phai__danhsach__item .TrangCaNhanChiTiet__phai__danhsach__item__thongtin .TrangCaNhanChiTiet__phai__danhsach__item__thongtin__tren .TrangCaNhanChiTiet__phai__danhsach__item__thongtin__phai .TrangCaNhanChiTiet__phai__danhsach__item__danhgia .TrangCaNhanChiTiet__phai__danhsach__item__danhgia__sao.active {
+  color: #FF764C;
+}
+.TrangCaNhanChiTiet .TrangCaNhanChiTiet__phai .TrangCaNhanChiTiet__phai__danhsach .TrangCaNhanChiTiet__phai__danhsach__items .TrangCaNhanChiTiet__phai__danhsach__item .TrangCaNhanChiTiet__phai__danhsach__item__thongtin .TrangCaNhanChiTiet__phai__danhsach__item__thongtin__tren .TrangCaNhanChiTiet__phai__danhsach__item__thongtin__phai p {
+  text-align: right;
+  color: #12152E;
+  font-weight: 700;
+  margin-top: 5px;
+}
+.TrangCaNhanChiTiet .TrangCaNhanChiTiet__phai .TrangCaNhanChiTiet__phai__danhsach .TrangCaNhanChiTiet__phai__danhsach__items .TrangCaNhanChiTiet__phai__danhsach__item .TrangCaNhanChiTiet__phai__danhsach__item__thongtin .TrangCaNhanChiTiet__phai__danhsach__item__thongtin__desc p {
+  color: #3d3d3d;
+  font-weight: 500;
+  margin-top: 5px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+.TrangCaNhanChiTiet .TrangCaNhanChiTiet__phai .TrangCaNhanChiTiet__phai__danhsach .TrangCaNhanChiTiet__phai__danhsach__items .TrangCaNhanChiTiet__phai__danhsach__item .TrangCaNhanChiTiet__phai__danhsach__item__thongtin .TrangCaNhanChiTiet__phai__danhsach__item__thongtin__gia {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.TrangCaNhanChiTiet .TrangCaNhanChiTiet__phai .TrangCaNhanChiTiet__phai__danhsach .TrangCaNhanChiTiet__phai__danhsach__items .TrangCaNhanChiTiet__phai__danhsach__item .TrangCaNhanChiTiet__phai__danhsach__item__thongtin .TrangCaNhanChiTiet__phai__danhsach__item__thongtin__gia p {
+  font-size: 30px;
+  font-weight: 800;
+  margin-right: 20px;
+}
+.TrangCaNhanChiTiet .TrangCaNhanChiTiet__phai .TrangCaNhanChiTiet__phai__danhsach .TrangCaNhanChiTiet__phai__danhsach__items .TrangCaNhanChiTiet__phai__danhsach__item .TrangCaNhanChiTiet__phai__danhsach__item__thongtin .TrangCaNhanChiTiet__phai__danhsach__item__thongtin__gia h1 {
+  font-size: 20px;
+}
+.TrangCaNhanChiTiet .TrangCaNhanChiTiet__phai .TrangCaNhanChiTiet__phai__danhsach .TrangCaNhanChiTiet__phai__danhsach__items .TrangCaNhanChiTiet__phai__danhsach__item .TrangCaNhanChiTiet__phai__danhsach__item__thongtin .TrangCaNhanChiTiet__phai__danhsach__item__thongtin__duoi {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.TrangCaNhanChiTiet .TrangCaNhanChiTiet__phai .TrangCaNhanChiTiet__phai__danhsach .TrangCaNhanChiTiet__phai__danhsach__items .TrangCaNhanChiTiet__phai__danhsach__item .TrangCaNhanChiTiet__phai__danhsach__item__thongtin .TrangCaNhanChiTiet__phai__danhsach__item__thongtin__duoi .TrangCaNhanChiTiet__phai__danhsach__item__thongtin__duoi__trai {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.TrangCaNhanChiTiet .TrangCaNhanChiTiet__phai .TrangCaNhanChiTiet__phai__danhsach .TrangCaNhanChiTiet__phai__danhsach__items .TrangCaNhanChiTiet__phai__danhsach__item .TrangCaNhanChiTiet__phai__danhsach__item__thongtin .TrangCaNhanChiTiet__phai__danhsach__item__thongtin__duoi .TrangCaNhanChiTiet__phai__danhsach__item__thongtin__duoi__trai .TrangCaNhanChiTiet__phai__danhsach__item__thongtin__duoi__trai__tacgia {
+  margin-right: 60px;
+}
+.TrangCaNhanChiTiet .TrangCaNhanChiTiet__phai .TrangCaNhanChiTiet__phai__danhsach .TrangCaNhanChiTiet__phai__danhsach__items .TrangCaNhanChiTiet__phai__danhsach__item .TrangCaNhanChiTiet__phai__danhsach__item__thongtin .TrangCaNhanChiTiet__phai__danhsach__item__thongtin__duoi .TrangCaNhanChiTiet__phai__danhsach__item__thongtin__duoi__trai .TrangCaNhanChiTiet__phai__danhsach__item__thongtin__duoi__trai__tacgia h1 {
+  color: #aaa5a5;
+  font-weight: 400;
+  text-align: left;
+  font-size: 20px;
+  white-space: nowrap;
+}
+.TrangCaNhanChiTiet .TrangCaNhanChiTiet__phai .TrangCaNhanChiTiet__phai__danhsach .TrangCaNhanChiTiet__phai__danhsach__items .TrangCaNhanChiTiet__phai__danhsach__item .TrangCaNhanChiTiet__phai__danhsach__item__thongtin .TrangCaNhanChiTiet__phai__danhsach__item__thongtin__duoi .TrangCaNhanChiTiet__phai__danhsach__item__thongtin__duoi__trai .TrangCaNhanChiTiet__phai__danhsach__item__thongtin__duoi__trai__tacgia p {
+  color: #333;
+  font-weight: 600;
+  text-align: center;
+}
+.TrangCaNhanChiTiet .TrangCaNhanChiTiet__phai .TrangCaNhanChiTiet__phai__danhsach .TrangCaNhanChiTiet__phai__danhsach__items .TrangCaNhanChiTiet__phai__danhsach__item .TrangCaNhanChiTiet__phai__danhsach__item__thongtin .TrangCaNhanChiTiet__phai__danhsach__item__thongtin__duoi .TrangCaNhanChiTiet__phai__danhsach__item__thongtin__duoi__trai .TrangCaNhanChiTiet__phai__danhsach__item__thongtin__duoi__trai__nam {
+  margin-right: 60px;
+}
+.TrangCaNhanChiTiet .TrangCaNhanChiTiet__phai .TrangCaNhanChiTiet__phai__danhsach .TrangCaNhanChiTiet__phai__danhsach__items .TrangCaNhanChiTiet__phai__danhsach__item .TrangCaNhanChiTiet__phai__danhsach__item__thongtin .TrangCaNhanChiTiet__phai__danhsach__item__thongtin__duoi .TrangCaNhanChiTiet__phai__danhsach__item__thongtin__duoi__trai .TrangCaNhanChiTiet__phai__danhsach__item__thongtin__duoi__trai__nam h1 {
+  color: #aaa5a5;
+  font-weight: 400;
+  text-align: left;
+  font-size: 20px;
+  white-space: nowrap;
+}
+.TrangCaNhanChiTiet .TrangCaNhanChiTiet__phai .TrangCaNhanChiTiet__phai__danhsach .TrangCaNhanChiTiet__phai__danhsach__items .TrangCaNhanChiTiet__phai__danhsach__item .TrangCaNhanChiTiet__phai__danhsach__item__thongtin .TrangCaNhanChiTiet__phai__danhsach__item__thongtin__duoi .TrangCaNhanChiTiet__phai__danhsach__item__thongtin__duoi__trai .TrangCaNhanChiTiet__phai__danhsach__item__thongtin__duoi__trai__nam p {
+  color: #333;
+  font-weight: 600;
+  text-align: center;
+}
+.TrangCaNhanChiTiet .TrangCaNhanChiTiet__phai .TrangCaNhanChiTiet__phai__danhsach .TrangCaNhanChiTiet__phai__danhsach__items .TrangCaNhanChiTiet__phai__danhsach__item .TrangCaNhanChiTiet__phai__danhsach__item__thongtin .TrangCaNhanChiTiet__phai__danhsach__item__thongtin__duoi .TrangCaNhanChiTiet__phai__danhsach__item__thongtin__duoi__phai {
+  display: flex;
+  flex-direction: row;
+}
+.TrangCaNhanChiTiet .TrangCaNhanChiTiet__phai .TrangCaNhanChiTiet__phai__danhsach .TrangCaNhanChiTiet__phai__danhsach__items .TrangCaNhanChiTiet__phai__danhsach__item .TrangCaNhanChiTiet__phai__danhsach__item__thongtin .TrangCaNhanChiTiet__phai__danhsach__item__thongtin__duoi .TrangCaNhanChiTiet__phai__danhsach__item__thongtin__duoi__phai .TrangCaNhanChiTiet__phai__danhsach__item__thongtin__duoi__phai__nut {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #6c5dd4;
+  padding: 20px 30px;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.TrangCaNhanChiTiet .TrangCaNhanChiTiet__phai .TrangCaNhanChiTiet__phai__danhsach .TrangCaNhanChiTiet__phai__danhsach__items .TrangCaNhanChiTiet__phai__danhsach__item .TrangCaNhanChiTiet__phai__danhsach__item__thongtin .TrangCaNhanChiTiet__phai__danhsach__item__thongtin__duoi .TrangCaNhanChiTiet__phai__danhsach__item__thongtin__duoi__phai .TrangCaNhanChiTiet__phai__danhsach__item__thongtin__duoi__phai__nut .TrangCaNhanChiTiet__phai__danhsach__item__thongtin__duoi__phai__nut__icon {
+  color: white;
+  margin-right: 5px;
+}
+.TrangCaNhanChiTiet .TrangCaNhanChiTiet__phai .TrangCaNhanChiTiet__phai__danhsach .TrangCaNhanChiTiet__phai__danhsach__items .TrangCaNhanChiTiet__phai__danhsach__item .TrangCaNhanChiTiet__phai__danhsach__item__thongtin .TrangCaNhanChiTiet__phai__danhsach__item__thongtin__duoi .TrangCaNhanChiTiet__phai__danhsach__item__thongtin__duoi__phai .TrangCaNhanChiTiet__phai__danhsach__item__thongtin__duoi__phai__nut p {
+  color: white;
+  font-weight: 600;
+}
+.TrangCaNhanChiTiet .TrangCaNhanChiTiet__phai .TrangCaNhanChiTiet__phai__danhsach .TrangCaNhanChiTiet__phai__danhsach__items .TrangCaNhanChiTiet__phai__danhsach__item .TrangCaNhanChiTiet__phai__danhsach__item__thongtin .TrangCaNhanChiTiet__phai__danhsach__item__thongtin__duoi .TrangCaNhanChiTiet__phai__danhsach__item__thongtin__duoi__phai .TrangCaNhanChiTiet__phai__danhsach__item__thongtin__duoi__phai__nut:hover {
+  background-color: #8e96e2;
+}
+.TrangCaNhanChiTiet .TrangCaNhanChiTiet__phai .TrangCaNhanChiTiet__phai__danhsach .TrangCaNhanChiTiet__phai__danhsach__showMoreComment {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 200px;
+  margin-top: 50px;
+}
+.TrangCaNhanChiTiet .TrangCaNhanChiTiet__phai .TrangCaNhanChiTiet__phai__danhsach .TrangCaNhanChiTiet__phai__danhsach__showMoreComment h3 {
+  text-align: center;
+  width: 100%;
+  background-color: #6c5dd4;
+  padding: 20px;
+  color: white;
+  cursor: pointer;
+  border-radius: 15px;
+  transition: all 0.3s ease-in-out;
+}
+.TrangCaNhanChiTiet .TrangCaNhanChiTiet__phai .TrangCaNhanChiTiet__phai__danhsach .TrangCaNhanChiTiet__phai__danhsach__showMoreComment h3:hover {
+  background-color: #626fdf;
+}
